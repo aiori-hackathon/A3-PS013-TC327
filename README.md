@@ -1,13 +1,20 @@
-# AIORI-3-HACKATHON-PROJECTS
-This repository will contain the code and resources for the AIORI-3 hackathon that will be developed during the AIORI-3
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-## 🎥 Team Introduction
+# Run and deploy your AI Studio app
 
-Meet our team, **CyberTrace**, participating in AIORI Hackathon 3.
+This contains everything you need to run your app locally.
 
-In this video, we introduce our team members, explain our problem statement, and share our project's vision.
+View your app in AI Studio: https://ai.studio/apps/094506e0-75c0-4726-bc84-29f1d2c1334a
 
-**Team Code:** A3-PS013-TC327
+## Run Locally
 
-[▶️ Watch Our Team Introduction on YouTube](https://youtu.be/HIw73kre2aA?si=5coX9BIVfQnv0iUm)
+**Prerequisites:**  Node.js
 
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
